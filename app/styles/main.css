@@ -33,7 +33,7 @@
   font-size: 6.5rem;
   opacity: 0.05;
   position: absolute;
-  top: -36px;
+  top: -24px;
 }
 
 .introduce:before {
@@ -50,6 +50,18 @@
 
 .reviews:before {
   content: '04';
+}
+
+.genres:before {
+  content: '05';
+}
+
+.tools:before {
+  content: '06';
+}
+
+.we-are:before {
+  content: '07';
 }
 
 .section-name:after {
@@ -202,7 +214,7 @@
 
 .soundcloud-show-more:before {
   content: '';
-  background: url('../images/show-more.png');
+  background: url('../images/show-more.png') center center no-repeat;
   width: 20px;
   height: 18px;
   margin-right: 16px;
@@ -258,4 +270,10 @@
 .right-arrow {
   -webkit-transform: rotate(45deg);
   transform: rotate(45deg);
+}
+
+.genres-name {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 600;
+  font-size: 1.9rem;
 }
