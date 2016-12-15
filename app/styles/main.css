@@ -1,0 +1,97 @@
+.background {
+  background: url('../images/background.jpg') no-repeat top center;
+  -webkit-background-size: 100% 764px;
+  -moz-background-size: 100% 764px;
+  -o-background-size: 100% 764px;
+  background-size: 100% 764px;
+}
+
+.navbar-toggle .icon-bar {
+  background: #000;
+}
+
+.motto {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 800;
+  font-size: 44px;
+  color: #007abd;
+  text-transform: uppercase;
+  padding-bottom: 266px;
+  padding-top: 100px;
+}
+
+.section-name {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+  font-size: 22px;
+  position: relative;
+}
+
+.section-name:before {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+  font-size: 65px;
+  opacity: 0.05;
+  position: absolute;
+  top: -24px;
+}
+
+.introduce:before {
+  content: '01';
+}
+
+.awards:before {
+  content: '02';
+}
+
+.section-name:after {
+  margin-left: 26px;
+  content: '';
+  width: 50px;
+  height: 3px;
+  background: #000;
+  display: inline-block;
+}
+
+.section-subtitle {
+  font-family: 'Raleway', sans-serif;
+  font-size: 24px;
+  font-weight: 500;
+  text-transform: uppercase;
+  margin-top: 60px;
+}
+
+.section-paragraph {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  color: #0a0c0c;
+}
+
+.section-link {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  color: #0a0c0c;
+}
+
+.carousel-indicators {
+  position: static;
+  left: 0;
+  padding: 0;
+  text-align: left;
+  margin: 0;
+}
+
+.carousel-indicators li {
+  width: 5px;
+  height: 5px;
+  background-color: #cdcbcc;
+  margin: 3px 1px;
+}
+
+.carousel-indicators .active {
+  width: 11px;
+  height: 11px;
+  border: 3px solid #0e84c9;
+}
