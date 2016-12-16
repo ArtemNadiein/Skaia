@@ -60,7 +60,7 @@
   content: '06';
 }
 
-.we-are:before {
+.team:before {
   content: '07';
 }
 
@@ -276,4 +276,20 @@
   font-family: 'Raleway', sans-serif;
   font-weight: 600;
   font-size: 1.9rem;
+}
+
+.team-post {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  font-size: 1.2rem;
+  display: block;
+  color: #0a0c0c;
+}
+
+.team-name {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 600;
+  font-size: 2.2rem;
+  display: block;
+  color: #2477b7;
 }
